@@ -1,0 +1,18 @@
+{
+	"ImportPath": "github.com/partkyle/kafka-examples",
+	"GoVersion": "go1.3",
+	"Packages": [
+		"./producer/"
+	],
+	"Deps": [
+		{
+			"ImportPath": "code.google.com/p/snappy-go/snappy",
+			"Comment": "null-15",
+			"Rev": "12e4b4183793ac4b061921e7980845e750679fd0"
+		},
+		{
+			"ImportPath": "github.com/Shopify/sarama",
+			"Rev": "57544182fb5172731cf3431075600d12dd5fca0f"
+		}
+	]
+}
