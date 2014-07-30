@@ -10,7 +10,7 @@ import (
 
 var (
 	kafka   = flag.String("kafka", ":2181", "kafka addr")
-	topic   = flag.String("topic", "default", "topic to post")
+	topic   = flag.String("topic", "", "topic to post")
 	key     = flag.String("key", "", "key to post message with")
 	message = flag.String("message", "", "message to post")
 )
